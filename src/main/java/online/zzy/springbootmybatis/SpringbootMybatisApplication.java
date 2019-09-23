@@ -1,0 +1,14 @@
+package online.zzy.springbootmybatis;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan("online.zzy.springbootmybatis.dao")
+public class SpringbootMybatisApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootMybatisApplication.class, args);
+	}
+}

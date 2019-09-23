@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1, user-scalable=no"/>
+    <title>login</title>
+</head>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<body>
+<div class="container">
+    <div class="col-md-6 col-md-offset-3 text-center">
+        <h3>注册</h3>
+        <form method="post" action="../shiro/register">
+            <div class="form-group">
+                <label for="username" >username</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="form-group">
+                <label for="password">password</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <button class="btn btn-default">提交</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
